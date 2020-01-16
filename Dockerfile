@@ -17,5 +17,4 @@ RUN npm install -g --unsafe-perm node-red
 RUN npm install -g --unsafe-perm node-red-admin
 RUN npm install -g --unsafe-perm node-red-contrib-pythonshell
 RUN npm install -g --unsafe-perm node-red-node-watson
-USER node-red
 EXPOSE 1880/tcp
