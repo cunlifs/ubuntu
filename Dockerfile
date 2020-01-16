@@ -1,4 +1,4 @@
-ROM ubuntu
+FROM ubuntu
 CMD /bin/bash
 MAINTAINER Stu Cunliffe,UK s_cunliffe@uk.ibm.com
 RUN apt-get update
