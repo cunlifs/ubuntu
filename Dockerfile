@@ -1,6 +1,8 @@
 FROM ubuntu
 #CMD /bin/bash
 MAINTAINER Stu Cunliffe,UK s_cunliffe@uk.ibm.com
+ENV http_proxy http://9.196.156.29:3128
+ENV https_proxy http://9.196.156.29:3128
 RUN apt-get update
 #RUN apt-get install -y npm
 #RUN apt-get install -y python3
